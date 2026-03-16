@@ -103,4 +103,29 @@ The module handles the following scenarios:
 
 In these cases the module returns a failure reason.
 
+Module Structure
+
+The Dispatch module is implemented in the following package:
+
+src/main/java/edu/classproject/dispatch
+
+Files
+
+DispatchService.java
+Interface defining the dispatch operation.
+
+DispatchServiceImpl.java
+Implements the dispatch logic and assigns delivery partners.
+
+DispatchAssignment.java
+Represents the assignment of a delivery partner to an order.
+
+Test
+
+Unit tests are located in:
+
+src/test/java/edu/classproject/dispatch
+
+DispatchServiceTest.java
+Verifies that the dispatch operation works correctly.
 
